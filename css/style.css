@@ -1,0 +1,145 @@
+.toolbar {
+    background-color: silver;
+}
+
+.tabbar {
+    background-color: silver;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.bg-title {
+    background-color: black;
+}
+
+.img {
+    width: 100%;
+    height: 550px;
+}
+
+
+.img-search {
+    width: 100px;
+    height: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.imglike {
+    padding: 5px;
+    width: 100px;
+  }
+
+.logo {
+    padding: 9px;
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.mt-5 {
+    margin-top: 10px;
+}
+
+.pd {
+    padding: 10px;
+}
+
+.icon {
+    font-size: 28px;
+    color: chocolate;
+}
+
+.icon-center {
+    text-align: center;
+}
+
+.left {
+    text-align: center;
+}
+
+.toolbar__left,
+.toolbar__right,
+.tabbar {
+    background-color: #000000;
+}
+
+/*-----------หน้า Home-----------*/  
+
+.carousel ons-carousel-item img {
+    width: 100%;
+    max-height: 190px
+  }
+
+  .movie_list {
+    margin: 10px;
+    height: 130px;
+    padding-top: 30px;
+  }
+
+  .movie_list img {
+    width: 90%
+  }  
+
+/*-----------หน้า Movie_Details-----------*/
+
+.trailer {
+    height: 190px;
+    position: relative;
+  }
+
+  .trailer img {
+    width: 100%;
+    height: 100%
+  }
+
+  .trailer ons-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    color: #666;
+    background: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    opacity: 0.7;
+  }
+
+  .trailer ons-icon:active {
+    opacity: 1;
+  }
+
+  .movie_info {
+    padding: 0px 10px;
+    font-size: 14px;
+  }
+
+  .movie_general_info {
+    width: 250px;
+    margin-bottom: 15px;
+    color: gray;
+  }
+
+  .movie_synopsis {
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+
+  .movie_cast {
+    color: gray;
+  }
+
+  .stars {
+    white-space: nowrap;
+    margin-right: 15px
+  }

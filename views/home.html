@@ -1,0 +1,51 @@
+<ons-page id="home">
+
+    <ons-navigator swipeable id="myNavigator" page="page1.html"></ons-navigator>
+    <template id="page1.html">
+        <ons-page id="Home">
+            <ons-carousel swipeable auto-scroll overscrollable id="carousel">
+                <ons-carousel-item>
+                    <div style="text-align: center; font-size: 30px; color: #fff;">
+                        <img class="img" src="assets/img/john.jpg" alt="" id="johnwick">
+                    </div>
+                </ons-carousel-item>
+                <ons-carousel-item>
+                    <div style="text-align: center; font-size: 30px; color: #fff;">
+                        <img class="img" src="assets/img/wonder.jpg" alt="" id="wonderwoman">
+                    </div>
+                </ons-carousel-item>
+                <ons-carousel-item>
+                    <div style=" text-align: center; font-size: 30px; color: #fff; ">
+                        <img class="img" src=" assets/img/toy.jpg " alt=" " id="toystory">
+                    </div>
+                </ons-carousel-item>
+            </ons-carousel>
+
+            <div class="movie_list">
+                Top Rated
+                <ons-carousel auto-refresh swipeable overscrollable item-width="150px">
+                    <ons-carousel-item modifier="nodivider">
+                        <img src="assets/img/joker.jpg">
+                    </ons-carousel-item>
+                    <ons-carousel-item modifier="nodivider">
+                        <img src="assets/img/tenet.jpg">
+                    </ons-carousel-item>
+                    <ons-carousel-item modifier="nodivider">
+                        <img src="assets/img/venom.jpg">
+                    </ons-carousel-item>
+                    <ons-carousel-item modifier="nodivider">
+                        <img src="assets/img/aquaman.jpg">
+                    </ons-carousel-item>
+                    <ons-carousel-item modifier="nodivider">
+                        <img src="assets/img/t2.jpg">
+                    </ons-carousel-item>
+                </ons-carousel>
+            </div>
+
+            <style>
+
+            </style>
+
+        </ons-page>
+    </template>
+</ons-page>
