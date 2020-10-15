@@ -198,20 +198,6 @@
 }
 /*chat message*/
 
-/* Button used to open the chat form - fixed at the bottom of the page 
-.open-button {
-  background-color: #555;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.8;
-  position: fixed;
-  bottom: 23px;
-  right: 28px;
-  width: 280px;
-}*/
-
 /* The popup chat - hidden by default */
 .form-popup {
   display: none;
@@ -249,7 +235,7 @@
 
 /* Set a style for the submit/login button */
 .form-container .btn {
-  background-color: #4CAF50;
+  background-color: #0066FF;
   color: white;
   padding: 16px 20px;
   border: none;
@@ -267,4 +253,53 @@
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+/*navbar*/
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
+
+.topnav-centered a {
+  float: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
 }
